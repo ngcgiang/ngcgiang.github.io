@@ -1,0 +1,76 @@
+/* phone */
+@media only screen and (max-width: 46.1875em)  {
+    #header{
+        font-size: 100%;
+        overflow: hidden;
+    }
+    #nav li{
+        display: block;
+    }
+    #nav .supnav{
+        position: initial;
+        background-color: #333
+    }
+    #nav .supnav a {
+        color: white;
+        padding: 0px 36px;
+    }
+
+    .search-btn{
+        display: none;
+    }
+    .more-btn{
+        display: flex;
+        color: white;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 14px;
+    }
+    .more-btn:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    #content{
+    }  
+    #slider .text-content{
+        top: 76px;
+    }
+    #content .member-list {
+        padding: 6px 0px 60px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content .member-name{
+            margin: 20px -6px -8px;
+            color: #20836a;
+            padding-left: 26px;
+    }
+    #content .content-section {
+        padding: 60px 0px 0px;
+    }
+    .ticket-list{
+        margin-top: 30px;   
+    }
+    .tour{
+        padding: 0px 8px;
+    }
+    .place {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    width: 100%;
+    }
+    .col{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .col-half{
+        width: 100%;
+        padding-bottom: 8px;
+    }
+    .contact-info{
+        padding-bottom: 8px;
+    }
+}
