@@ -133,16 +133,18 @@ html{
 
 #header .search-btn{
     float: right;  
+    border-radius: 8px;
 }
 
 #header .search-icon{
     color: white;
     font-size: 20px;
     line-height: 46px;
-    padding: 0px 21px;
+    padding: 13px 21px;
+    border-radius: 8px;
 }
 
-#header .search-btn:hover{
+#header .search-btn i:hover{
     background-color: #f44336 ;
     cursor: pointer;
 }
@@ -524,3 +526,18 @@ html{
     height: auto ;
 }
 /* phone */
+
+.darkmode-icon img{
+    width: 44px;
+    background-color: white;
+    border-radius: 28px;
+    padding: 4px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 62px;
+}
+
+.darkmode-icon img:hover{
+    background-color: #333;
+}

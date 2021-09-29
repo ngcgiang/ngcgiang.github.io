@@ -73,4 +73,8 @@
     .contact-info{
         padding-bottom: 8px;
     }
+    .darkmode-icon img{
+        width: 32px;
+        top: 6px;
+    }
 }
