@@ -55,7 +55,7 @@ html{
 }
 
 #wrapper{
-
+    
 }
 
 #header{
@@ -141,7 +141,7 @@ html{
     font-size: 20px;
     line-height: 46px;
     padding: 13px 21px;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 #header .search-btn i:hover{
