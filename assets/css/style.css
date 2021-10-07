@@ -541,3 +541,7 @@ html{
 .darkmode-icon img:hover{
     background-color: #333;
 }
+
+.darkmode-icon :active{
+    
+}
